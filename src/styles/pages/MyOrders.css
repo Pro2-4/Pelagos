@@ -1,0 +1,68 @@
+.my-orders-card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.my-orders-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16);
+}
+.my-orders-card h3 {
+  color: #0d6efd;
+  letter-spacing: 1px;
+}
+.order-row:hover {
+  background: #f6faff;
+  transition: background 0.2s;
+}
+.table thead th {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.table td,
+.table th {
+  vertical-align: middle !important;
+}
+.badge-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%) !important;
+  color: #fff !important;
+}
+.badge-primary {
+  background: linear-gradient(90deg, #0d6efd 0%, #6a82fb 100%) !important;
+  color: #fff !important;
+}
+.badge-danger {
+  background: linear-gradient(90deg, #ff5858 0%, #f09819 100%) !important;
+  color: #fff !important;
+}
+.badge-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%) !important;
+  color: #fff !important;
+}
+@media (max-width: 768px) {
+  .my-orders-card {
+    padding: 0.5rem;
+  }
+  .table th,
+  .table td {
+    font-size: 0.98rem;
+    padding: 0.5rem;
+  }
+}
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animate__fadeIn {
+  animation-name: fadeInOrders;
+}
+@keyframes fadeInOrders {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,194 @@
+.about-page {
+  background-color: #f8f9fa;
+}
+
+.about-hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 80px 0;
+  margin-bottom: 60px;
+}
+
+.about-section-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about-value-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+}
+
+.about-value-card:hover .about-icon-wrapper {
+  transform: scale(1.1);
+}
+
+.about-team-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-team-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-team-card:hover .about-team-image {
+  transform: scale(1.05);
+}
+
+.about-social-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  /* transition: bottom 0.3s ease; */
+}
+
+/* .about-team-card:hover .about-social-links {
+  bottom: 0;
+} */
+
+.about-social-link {
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.about-social-link:hover {
+  color: #ff6b6b;
+}
+
+.about-achievement-card {
+  border: none;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-achievement-item {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-achievement-item:hover {
+  transform: translateY(-5px);
+}
+
+.about-achievement-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.about-achievement-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 15px 0;
+}
+
+.about-achievement-text {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .about-hero-section {
+    padding: 40px 0;
+  }
+
+  .about-section-title {
+    font-size: 1.8rem;
+  }
+
+  .about-achievement-number {
+    font-size: 2rem;
+  }
+}
+
+.about-contact-card {
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.about-contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-contact-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: #ff6b6b;
+}
+
+.about-contact-button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  border: none;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-contact-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+}
+
+@media (max-width: 768px) {
+  .about-contact-card {
+    margin: 0 15px;
+  }
+
+  .about-contact-icon {
+    width: 80px;
+    height: 80px;
+  }
+}

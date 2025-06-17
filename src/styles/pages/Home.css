@@ -1,0 +1,70 @@
+.banner-container {
+  transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: imageFadeIn 0.8s ease-out;
+}
+
+.banner-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-circle-svg {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-90deg);
+}
+
+.progress-circle-fg {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: dashProgress 4s linear forwards;
+  stroke-linecap: round;
+}
+
+.play-pause-icon {
+  width: 4px;
+  height: 12px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
+}
+
+.play-pause-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 4px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+@keyframes dashProgress {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes imageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
