@@ -23,7 +23,7 @@ const About = () => {
       name: "Nguyễn Văn Quý",
       position: "Giám đốc",
       image:
-        "https://i.imgur.com/10PvXg5.jpeg",
+        "/assets/user/giamdoc.webp",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -35,7 +35,7 @@ const About = () => {
       name: "Nguyễn Hữu Trường",
       position: "Quản lý sản phẩm",
       image:
-        "https://i.imgur.com/nXPGeBh.jpeg",
+        "/assets/user/quanly.webp",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -47,7 +47,7 @@ const About = () => {
       name: "Trần Hà Linh",
       position: "Thiết kế thời trang",
       image:
-        "https://i.imgur.com/FiUWpVx.png",
+        "/assets/user/thietke.webp",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -59,7 +59,7 @@ const About = () => {
       name: "Hoàng Đình Quang Huy",
       position: "Chăm sóc khách hàng",
       image:
-        "https://i.imgur.com/SNThw8f.jpeg",
+        "/assets/user/chamsoc.webp",
       social: {
         linkedin: "#",
         twitter: "#",
