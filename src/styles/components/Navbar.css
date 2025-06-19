@@ -1,17 +1,17 @@
 .nav-link-custom {
-  text-decoration: none; /* Remove default underline from Link */
-  padding: 0 !important; /* Remove any default padding from Nav.Link forcefully */
-  display: contents; /* Make it a ghost element for layout purposes */
+  text-decoration: none; 
+  padding: 0 !important;
+  display: contents; 
 }
 
 .nav-link-text {
   position: relative;
-  padding-bottom: 5px; /* Padding for the underline */
-  padding-left: 0 !important; /* Ensure no horizontal padding */
-  padding-right: 0 !important; /* Ensure no horizontal padding */
-  display: inline-block; /* Ensure span shrinks to content */
-  width: max-content !important; /* Force span to shrink to content width aggressively */
-  box-sizing: content-box !important; /* Ensure padding/border don't add to width */
+  padding-bottom: 5px; 
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  display: inline-block; 
+  width: max-content !important;
+  box-sizing: content-box !important; 
 }
 
 .nav-link-text::after {
